@@ -22,6 +22,17 @@
             }
         }
     }
+
+    // contact page responsive design changes
+    .mapFormContainer {
+        .map{
+            width: 45%;
+        }
+    }
+    .contactForm{
+        width: calc(55% - 50px);
+        margin-left: 50px;
+    }
 }
 
 @media (max-width: 800px) {
@@ -30,6 +41,20 @@
         .newsletter {
             width: 70%;
         }
+    }
+
+    // contact resposniveness here
+    .mapFormContainer{
+        flex-direction: column;
+        align-items: center;
+        .map{
+            margin-bottom: 50px;
+            width: 85%;
+        }
+    }
+    .contactForm{
+        width: 85%;
+        margin-left: 0;
     }
 }
 
@@ -70,6 +95,12 @@
         }
         .socialIcons {
             margin-bottom: 30px;
+        }
+    }
+
+    .mapFormContainer {
+        .map {
+            width: 100%;
         }
     }
 }
